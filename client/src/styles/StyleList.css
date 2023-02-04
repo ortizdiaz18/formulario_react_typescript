@@ -1,0 +1,63 @@
+.global_container_without_texts {
+  margin-top: 5%;
+}
+.global_container_without_texts img {
+  width: 5%;
+}
+.global_container_without_texts p {
+  font-family: "Comfortaa", cursive;
+}
+
+
+.global_container_tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30%;
+    margin-top: 3%;
+}
+.global_container_tittle h2{
+   margin: 0;
+}
+.global_container_cards {  
+  min-width: 100vh;
+  min-height: 20rem;  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.card_text {
+  border: 1px solid gray;
+  width: 20em;
+  min-height: 20rem;
+  padding: 0.5%;
+  overflow: hidden;
+  font-size: 0.6vw;
+  margin: 2%;
+}
+/* .card_text:hover {
+  border: 1px solid gray;
+  width: 30%;
+  height: 60%;
+  padding: 1%;
+  overflow: hidden;
+  font-size: 1vw;
+} */
+.container_icon_delete{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   
+}
+
+.icon_delete:hover {
+  background-color: rgb(251, 22, 22);
+  color: white;
+  border-radius: 3px;
+  font-variation-settings: "FILL" 0, "wght" 40, "GRAD" 1, "opsz" 48;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px -8px rgba(0,0,0,0.75);
+}
